@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Dosis&family=Josefin+Sans&family=Roboto+Mono&family=Rubik+Iso&display=swap');
+* { 
+    box-sizing: border-box;
+}
+header { 
+    position: relative; 
+    top: 50px;
+    left: 15%;
+}
+header h1 { 
+    font-family: 'Roboto Mono', monospace;
+    font-size: 75px;
+}
+div.container { 
+    border: 5px solid #EAE0E0;
+    display: block;
+    width: 70%;
+    position: relative;
+    right: 15%;
+    left: 15%;
+    height: 450px; 
+    margin: 20px;
+}
+div.fonts { 
+    height: 700px;
+}
+div.text-styling { 
+    height: 600px;
+}
+div.container h1 { 
+    font-family: 'Roboto Mono', monospace;
+    position: relative; 
+    left: 2%;
+    font-size: 30px;
+}
+div.container div.row1-color { 
+    margin-top: 50px;
+}
+div.container .color { 
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    margin: 20px auto;
+    height: 200px;
+    border-radius: 5%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+div.container .rose-quartz { 
+    background-color: #F7CAC9;
+}
+div.container .rose-quartz:hover { 
+    border: 1px solid #F7CAC9;
+    background-color: white;
+    color: #F7CAC9;
+}
+div.container .serenity{ 
+    background-color: #92A8D1;
+}
+div.container .serenity:hover { 
+    border: 1px solid #92A8D1;
+    background-color: white;
+    color: #92A8D1;
+}
+div.container .emerald{ 
+    background-color: #009B77;
+    width: 33.33%;
+}
+div.container .emerald:hover { 
+    border: 1px solid #009B77;
+    background-color: white;
+    color: #009B77;
+}
+div.container h2 { 
+    margin-top: 45px;
+}
+div.color h2 { 
+    font-weight: 500;
+    font-size: 25px;
+}
+div.color h3 { 
+    font-weight: 500;
+    font-size: 20px;
+}
+div.font-panel { 
+    display: inline-block;
+    margin-left: 10px;
+}
+.font-panel > h1 { 
+    text-decoration: underline;
+    font-weight: 300;
+}
+.climate-crisis { 
+    font-family: 'Climate Crisis', cursive;
+}
+.rubik-iso { 
+    font-family: 'Rubik Iso', cursive;
+}
+.dosis { 
+    font-family: 'Dosis', sans-serif;
+}
+ul.font-list { 
+    list-style-type: none;
+}
+ul.font-list li{ 
+    font-size: 30px;
+    padding: 5px;
+}
+li.normal { 
+    font-weight: normal;
+}
+li.bolded { 
+    font-weight: bold;
+}
+li.italicized { 
+    font-style: italic;
+}
+.text-styling li { 
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    position: relative;
+    left: 75px;
+}
